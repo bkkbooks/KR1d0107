@@ -1,0 +1,37 @@
+canonical_identifier: bkk:krp/KR1d0107/v1
+canonical_location: https://kanripo.org/bkk/KR1d0107/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:7cf5854f9b7b99617990762b56ca5289dd34e1992baf324bb7716157d9a4b2ee
+metadata:
+  title: 決疑要注一卷
+  identifiers:
+    krp: KR1d0107
+  tags:
+    kr-categories: KR1d
+    tls-dates: dat04500
+  source:
+    repository: tls-texts
+    path: data/tls/KR1d0107.xml
+  edition:
+    short: bkk
+assets:
+  parts:
+  - {seq: 1, filename: KR1d0107_001.yaml, hash: 'sha256:a1d57e90694f37f331660d312e0861200998fc65cb4d58942a5efc1e194a504c'}
+  markers:
+  - {seq: 1, role: markers, filename: assets/KR1d0107_001.markers.yaml, hash: 'sha256:8389062ddf1cb083446791bdf40a29a3e0307914b6564c009306eb73d230ce96'}
+table_of_contents:
+- ref:
+    seq: 1
+    marker_id: KR1d0107_CHANT_001-1a.1-h
+    span:
+    - body
+    - 0
+    - 382
+  label: 決疑要注
+  type: section
+  level: 1
+hash: sha256:576f2dfc1c8812961a94bf28f5a2968023df49ad85972b46271dc738ee8ab346
+mappings:
+- canonical_identifier: bkk:mapping/variant-fold-v1
+  hash: sha256:366e8ec95655b72d3205b878dc416602f82ff8a6b5dd240168f5ee5a7c65a61e
